@@ -10,9 +10,19 @@
             height: 200px;
             margin: 5px;
             background-color: steelblue;
+            border: 1px solid tomato;
+        }
+        .box-2{
+           position: absolute;
+           top: 50px;
+           left: 50px;
+        }
+        .box-3{
+            z-index: 1;
         }
         .container{
             display: flex;
+            position: relative;
         }
     </style>
 </head>
@@ -21,16 +31,16 @@
     <h3>More position</h3>
     <section class="container">
         <div class="box box-1">
-            <h3>box-&</h3>
+            <h3>box-1</h3>
         </div>
         <div class="box box-2">
-            <h3>box-&</h3>
+            <h3>box-2</h3>
         </div>
         <div class="box box-3">
-            <h3>box-&</h3>
+            <h3>box-3</h3>
         </div>
         <div class="box box-4">
-            <h3>box-&</h3>
+            <h3>box-4</h3>
         </div>
     </section>
 </body>
